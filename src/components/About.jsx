@@ -6,14 +6,23 @@ const About = () => {
             name='about'
             className='w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white'>
             <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-                <div>
-                    <p>About</p>
+                <div className='pb-8'>
+                    <p className='text-4xl font-bold inline border-b-4 border-gray-500'>About</p>
                 </div>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore amet quod tenetur ullam perferendis pariatur eaque omnis rerum. Ratione, vel ullam, ipsa nobis ad quos non molestias officiis illum delectus magni, ea velit odit quia aliquam id. Facere reiciendis dicta soluta voluptatibus omnis, ad perferendis? Quos aliquam recusandae ratione assumenda!
+                <p className='text-xl mt-20'>
+                    Andi Zulfahmi, Born in Maradda June 20 2000. Is an Alumni
+                    major Informatics Engineering at Dipa Makassar University
+                    in 2022. Successfully Completed Undergraduate Education
+                    in 3.7 Years and Received the Cum Laude Predicate with a
+                    GPA of 3.70
                 </p>
                 <br />
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae ipsum officia, eos iure, perspiciatis quis cumque libero sapiente ad est eum modi, dicta saepe! Omnis dignissimos fugit numquam maiores laboriosam commodi ratione nihil ullam voluptatem suscipit, quibusdam repellendus odit sint temporibus voluptatum reprehenderit nostrum vel porro, veniam facilis similique. Non!</p>
+                <p className='text-xl'>
+                    I am a front end mobile developer. For the past 1 year,
+                    I have been developing applications with financial features
+                    from Tokolapak using the Javascript programming language
+                    with the React Native framework.
+                </p>
             </div>
         </div>
     )
