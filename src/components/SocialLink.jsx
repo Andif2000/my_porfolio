@@ -44,7 +44,7 @@ const SocialLink = () => {
                     Resume < BsFillPersonLinesFill size={30} />
                 </>
             ),
-            href: 'https://github.com/Andif2000',
+            href: '../assets/document/Andi Zulfahmi, S.Kom-resume.pdf',
             style: 'rounded-br-md',
             download: true
         },
