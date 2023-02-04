@@ -1,6 +1,8 @@
 import React from 'react'
 import Fahmi from '../assets/Images/Fahmi.jpeg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
+import { Link } from 'react-scroll'
+import Portfolio from './Portfolio'
 
 const Home = () => {
     return (
@@ -15,14 +17,14 @@ const Home = () => {
                     <p className='text-gray-500 py-4 max-w-md pr-3'>I use React Native to create a mobile application display and combine it with nativewind css. This is really fun for me.</p>
 
                     <div>
-                        <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer '>
+                        <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer '>
                             porfolio
                             <span className='group-hover:rotate-90 duration-300 '>
                                 <MdOutlineKeyboardArrowRight 
                                 size={25}
                                 className='ml-1'/>
                             </span>
-                        </button>
+                        </Link>
                     </div>
 
                 </div>
