@@ -10,27 +10,39 @@ const Portfolio = () => {
     const portofolios = [
         {
             id: 1,
-            src: igClone
+            src: igClone,
+            code: 'https://github.com/Andif2000/Instagram',
+            demo: ''
         },
         {
             id: 2,
-            src: DocConsul
+            src: DocConsul,
+            code: 'https://github.com/Andif2000/Kedokteran',
+            demo: ''
         },
         {
             id: 3,
-            src: musicClone
+            src: musicClone,
+            code: 'https://github.com/Andif2000/Music_Player',
+            demo: ''
         },
         {
             id: 4,
-            src: getAPI1
+            src: getAPI1,
+            code: 'https://github.com/Andif2000/Fetching_API_With_Axios',
+            demo: ''
         },
         {
             id: 5,
-            src: getAPI2
+            src: getAPI2,
+            code: 'https://github.com/Andif2000/Fetching_API_With_Axios2',
+            demo: ''
         },
         {
             id: 6,
-            src: getAPI3
+            src: getAPI3,
+            code: 'https://github.com/Andif2000/Fetching_API_With_Axios3',
+            demo: ''
         },
     ]
     return (
@@ -45,12 +57,12 @@ const Portfolio = () => {
                 <div
                     className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
                     {
-                        portofolios.map(({ id, src }) => (
+                        portofolios.map(({ id, src, code, demo }) => (
                             <div key={id} className='shadow-md shadow-gray-600 rounded-md'>
                                 <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
                                 <div className='flex items-center justify-center'>
-                                    <button className='w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105'>Demo</button>
-                                    <button className='w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105'>Code</button>
+                                    <a href={demo} className='text-center w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105'>Demo</a>
+                                    <a href={code} className='text-center w-1/2 px-6 py-1 m-4 duration-200 hover:scale-105'>Code</a>
                                 </div>
                             </div>
                         ))
