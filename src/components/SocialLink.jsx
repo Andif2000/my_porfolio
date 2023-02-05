@@ -9,9 +9,7 @@ const SocialLink = () => {
         {
             id: 1,
             child: (
-                <>
-                    LinkedIdn < FaLinkedin size={30} />
-                </>
+                <>LinkedIdn < FaLinkedin size={30} /></>
             ),
             href: 'https://www.linkedin.com/in/andi-zulfahmi-547a67257/',
             style: 'rounded-tr-md'
@@ -19,9 +17,7 @@ const SocialLink = () => {
         {
             id: 2,
             child: (
-                <>
-                    GitHub < FaGithub size={30} />
-                </>
+                <>GitHub < FaGithub size={30} /></>
             ),
             href: 'https://github.com/Andif2000',
             style: ''
@@ -30,9 +26,7 @@ const SocialLink = () => {
         {
             id: 3,
             child: (
-                <>
-                    Email < HiOutlineMail size={30} />
-                </>
+                <>Email < HiOutlineMail size={30} /></>
             ),
             href: 'mailto:andifahmi26@gmail.com',
             style: ''
@@ -40,9 +34,7 @@ const SocialLink = () => {
         {
             id: 4,
             child: (
-                <>
-                    Resume < BsFillPersonLinesFill size={30} />
-                </>
+                <>Resume < BsFillPersonLinesFill size={30} /></>
             ),
             href: '../assets/document/Andi Zulfahmi, S.Kom-resume.pdf',
             style: 'rounded-br-md',
