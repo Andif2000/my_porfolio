@@ -33,7 +33,6 @@ const Home = () => {
                         className='rounded-2xl mx-auto w-1/2 md:w-full' />
                 </div>
             </div>
-
         </div>
     )
 }
