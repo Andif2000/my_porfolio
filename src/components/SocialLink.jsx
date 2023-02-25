@@ -4,7 +4,6 @@ import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { HiOutlineMail } from 'react-icons/hi'
 
 const SocialLink = () => {
-
     const links = [
         {
             id: 1,
