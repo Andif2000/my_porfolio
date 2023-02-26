@@ -14,7 +14,7 @@ const About = () => {
                     major Informatics Engineering at Dipa Makassar University
                     in 2022. Successfully Completed Undergraduate Education
                     in 3.7 Years and received the Cum Laude Predicate with a
-                    GPA of 3.70
+                    GPA of 3.70.
                 </p>
                 <br />
                 <p className='text-xl'>
