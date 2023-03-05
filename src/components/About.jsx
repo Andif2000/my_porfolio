@@ -20,7 +20,7 @@ const About = () => {
                 <p className='text-xl'>
                     I am a front end mobile developer. For the past 1 year,
                     I have been developing applications with financial features
-                    from Tokolapak using the Javascript programming language
+                    from Tokolapak using the Javascript Programming Language
                     with the React Native framework.
                 </p>
             </div>
