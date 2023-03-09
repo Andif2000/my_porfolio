@@ -2,7 +2,6 @@ import React from 'react'
 import Fahmi from '../assets/Images/Fahmi.jpeg'
 import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 import { Link } from 'react-scroll'
-import Portfolio from './Portfolio'
 
 const Home = () => {
     return (
