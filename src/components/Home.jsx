@@ -12,7 +12,7 @@ const Home = () => {
                 className='max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full md:flex-row'>
                 <div className='flex flex-col justify-center h-full '>
                     <h2 className='text-4xl sm:text-6xl font-bold text-white'>Andi Zulfahmi</h2>
-                    <h5 className='text-2xl sm:text-3xl  text-white'>Front End Developer</h5>
+                    <h5 className='text-2xl sm:text-3xl  text-white'>Mobile Front End Developer</h5>
                     <p className='text-gray-500 py-4 max-w-md pr-3'>I use React Native to create a Mobile Application display and combine it with NativeWind CSS. This is really fun for me</p>
 
                     <div>
