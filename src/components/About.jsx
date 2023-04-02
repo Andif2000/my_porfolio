@@ -21,7 +21,7 @@ const About = () => {
                     I'm a Front End Mobile Developer. For the past 1 year,
                     I have been developing applications with financial features
                     from Tokolapak Using the Javascript Programming Language
-                    with the React Native Framework.
+                    With the React Native Framework.
                 </p>
             </div>
         </div>
