@@ -13,7 +13,7 @@ const Home = () => {
                 <div className='flex flex-col justify-center h-full '>
                     <h2 className='text-4xl sm:text-6xl font-bold text-white'>Andi Zulfahmi</h2>
                     <h5 className='text-2xl sm:text-3xl  text-white'>Front End Mobile Developer</h5>
-                    <p className='text-gray-500 py-4 max-w-md pr-3'>I use React Native To create a Mobile Application display and combine it with NativeWind CSS</p>
+                    <p className='text-gray-500 py-4 max-w-md pr-3'>I Use React Native To create a Mobile Application display and combine it with NativeWind CSS</p>
 
                     <div>
                         <Link to='portfolio' smooth duration={500} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer '>
