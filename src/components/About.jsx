@@ -18,7 +18,7 @@ const About = () => {
                 </p>
                 <br />
                 <p className='text-xl'>
-                    I'm a Front End Mobile Developer. For the Past 1 year,
+                    I'm a Front End Mobile Developer. For the Past 1 Year,
                     I have been developing applications with financial features
                     from Tokolapak using the Javascript Programming Language
                     with the React Native Framework.
