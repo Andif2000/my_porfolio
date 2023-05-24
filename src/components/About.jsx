@@ -13,7 +13,7 @@ const About = () => {
                     Andi Zulfahmi, Born in Maradda June 20 2000. Is an Alumni
                     Major Informatics Engineering at Dipa Makassar University
                     in 2022. Successfully Completed Undergraduate Education
-                    In 3.7 Years and Received The Cum Laude Predicate With a
+                    in 3.7 Years and Received The Cum Laude Predicate With a
                     GPA of 3.70.
                 </p>
                 <br />
